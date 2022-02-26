@@ -24,25 +24,18 @@ export const RECIPE_NAME = [
     ingedients: '\nIngredients',
     ingedient2: '\n   2 regular size boneless chicken breasts, washed and finely chopped\n   tbsp ginger paste\n   1 tsp garlic paste\n   1/2 tsp garam masala powder\n   1/2 tsp salt\n   5 green chilli, finely chopped\n   1 tbsp lime juice\n   1 medium onion, finely chopped (optional)\n   1  tbsp finely chopped cilantro\n   2 tbsp gram flour\n   Oil to fry',
     directions: '\nDirections',
-    direction2: '   1. Marinate the chicken with ginger, garlic, garam masala and lime juice. Keep aside for 2 hours (can also be marinated overnight, or in the morning to fry in the afternoon/evening, in that case, add lime juice a few hours before frying).\n\n   2. Add the salt, green chilli, cilantro and onions (if desired) and mix.\n\n   3. Add gram flour and mix well. Divide into balls.\n\n   4. Heat oil and deep fry on medium heat. (I usually prick the balls with a fork during frying to ensure that the pakora is evenly cooked on the inside as well.) The color should be a light golden brown.\n\n   5. Serve hot.',
+    direction2: '\n   1. Marinate the chicken with ginger, garlic, garam masala and lime juice. Keep aside for 2 hours (can also be marinated overnight, or in the morning to fry in the afternoon/evening, in that case, add lime juice a few hours before frying).\n\n   2. Add the salt, green chilli, cilantro and onions (if desired) and mix.\n\n   3. Add gram flour and mix well. Divide into balls.\n\n   4. Heat oil and deep fry on medium heat. (I usually prick the balls with a fork during frying to ensure that the pakora is evenly cooked on the inside as well.) The color should be a light golden brown.\n\n   5. Serve hot.',
     image: require('./assets/maxresdefault.jpg')
   },
   {
-    name: '',
-    ingedients: '',
-    ingedient2: '',
-    directions: '',
-    direction2: '',
-    // image:
+    name: 'Chicken Korma',
+    ingedients: '\nIngredients',
+    ingedient2: '\n   2 pounds bone-in chicken (dark meat best)\n   2 medium onions,  peeled\n   1.5  inch of ginger, chopped\n   4 cloves garlic, chopped\n   ½ cup whole-milk yogurt\n   4 to 6 green cardamom pods\n   3 to 5 cloves\n   2 whole bay leaves\n   1 3-in stick cinnamon\n   2 tsp salt\n   ½ tsp sugar\n   1 teaspoon black peppercorns\n   2 to 3 small hot green peppers\n   4 tbsp of ghee',
+    directions: '\nDirections',
+    direction2: '\n   1. Thinly slice one onion and set aside\n\n   2. Roughly chop the other onion, and then puree it in a blender with the garlic and ginger until smooth. Add water if necessary.\n\n   3. Combine the puree, chicken, yogurt, cardamom, cinnamon, peppercorns, and bay leaves in a covered Dutch oven and simmer over medium-high heat, stirring occasionally for 10-15 minutes.\n\n   4. Uncover and bring the pot to a low simmer\n\n   5. Cook until chicken is tender. Flip occasionally. 20-35 minutes.\n\n   6. Add in the sliced chilis and sugar and stir.\n\n   7. Adjust the thickness of the gravy by adding water or cooking it down.\n\n   8. Heat the ghee and the thinly sliced onions in a pan over medium heat until they are a rich brown. 5-7 minutes.\n\n   9. Season the onions with a pinch of salt and stir it into the korma.',
+    image: require('./assets/chicken-korma.jpg')
   },
-  {
-    name: '',
-    ingedients: '',
-    ingedient2: '',
-    directions: '',
-    direction2: '',
-    // image:
-  },
+
 ]
 
 
