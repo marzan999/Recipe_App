@@ -20,12 +20,12 @@ export const RECIPE_NAME = [
     image: require('./assets/photo.jpg')
   },
   {
-    name: '',
-    ingedients: '',
-    ingedient2: '',
-    directions: '',
-    direction2: '',
-    // image:
+    name: 'Chicken Pakora',
+    ingedients: '\nIngredients',
+    ingedient2: '\n   2 regular size boneless chicken breasts, washed and finely chopped\n   tbsp ginger paste\n   1 tsp garlic paste\n   1/2 tsp garam masala powder\n   1/2 tsp salt\n   5 green chilli, finely chopped\n   1 tbsp lime juice\n   1 medium onion, finely chopped (optional)\n   1  tbsp finely chopped cilantro\n   2 tbsp gram flour\n   Oil to fry',
+    directions: '\nDirections',
+    direction2: '   1. Marinate the chicken with ginger, garlic, garam masala and lime juice. Keep aside for 2 hours (can also be marinated overnight, or in the morning to fry in the afternoon/evening, in that case, add lime juice a few hours before frying).\n\n   2. Add the salt, green chilli, cilantro and onions (if desired) and mix.\n\n   3. Add gram flour and mix well. Divide into balls.\n\n   4. Heat oil and deep fry on medium heat. (I usually prick the balls with a fork during frying to ensure that the pakora is evenly cooked on the inside as well.) The color should be a light golden brown.\n\n   5. Serve hot.',
+    image: require('./assets/maxresdefault.jpg')
   },
   {
     name: '',
