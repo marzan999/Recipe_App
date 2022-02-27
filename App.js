@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView, FlatList, Image, ImageBackground, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, FlatList, Image, ImageBackground, Dimensions, TextInput } from 'react-native';
 
 
 export const RECIPE_NAME = [
@@ -62,6 +62,14 @@ export default function App({ navigation, route }) {
   return (
     <SafeAreaView style={styles.container}>
     <Text style={styles.headingStyle}>Recipes</Text>
+
+    <TextInput 
+      placeholder="Recipe name..."
+      placeholderTextColor='#000'
+      onChangeText={() => {}}
+      style={{padding: 8, borderColor: '#000', borderWidth: 2,  borderRadius: 16, marginTop: 20, margin: 10}}
+    />
+
       <FlatList
         data={RECIPE_NAME}
         renderItem={renderItem}
