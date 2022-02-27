@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import { useState } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, ScrollView, FlatList, Image, ImageBackground, Dimensions, TextInput } from 'react-native';
 
 
@@ -42,6 +43,8 @@ export const RECIPE_NAME = [
 
 export default function App({ navigation, route }) {
 
+  const [recipeList, setRecipeList] = useState(RECIPE_NAME);
+
   const renderItem = ({ item, index }) => {
 
 
@@ -58,6 +61,17 @@ export default function App({ navigation, route }) {
     );
   }
 
+  const searchFilter = (text) => {
+    const filteredList = RECIPE_NAME.filter(item => {
+      const itemData = item.name.toUpperCase()
+      const userTypedText = text.toUpperCase()
+
+      return itemData.indexOf(userTypedText) > -1
+    })
+
+    setRecipeList(filteredList)
+  }
+
 
   return (
     <SafeAreaView style={styles.container}>
@@ -66,12 +80,13 @@ export default function App({ navigation, route }) {
     <TextInput 
       placeholder="Recipe name..."
       placeholderTextColor='#000'
-      onChangeText={() => {}}
+      onChangeText={(text) => searchFilter(text)}
+      autoFocus={false}
       style={{padding: 8, borderColor: '#000', borderWidth: 2,  borderRadius: 16, marginTop: 20, margin: 10}}
     />
 
       <FlatList
-        data={RECIPE_NAME}
+        data={recipeList}
         renderItem={renderItem}
         keyExtractor={(item, index) => item.name}
       />
